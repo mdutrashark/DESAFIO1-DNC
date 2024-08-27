@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/ico" href="./assets/img/6601c24c7b302c4acd2821e2_Camada_1.ico">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gafata&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gafata&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Desafio I - DNC</title>
+  </head>
+  <body>
+    <header>
+      <a href="http://www.escoladnc.com.br" target="_blank" rel="noopener noreferrer"><img id="logo" src="./assets/img/logo.svg"></img></a>
+      <div id="text-container">
+        <h1>Tradição em projetos de arquitetura</h1> <br>
+        <p id="header-text">Arquitetura residencial e comercial.</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="data-section">
+        <div class="data-container">
+          <p class="text-bigger">850</p>
+          <p class="text-small">empreendimentos construidos</p>
+        </div>
+
+        <div class="data-container">
+          <p class="text-bigger">40</p>
+          <p class="text-small">anos de mercado e experiência</p>
+        </div>
+
+        <div class="data-container">
+          <p class="text-bigger">2,000,000</p>
+          <p class="text-small">m² em projetos construidos</p>
+        </div>
+      </section>
+
+      <article>
+        <div id="article-container">
+          <div id="article-content">
+            <h2 id="article-title">Arquitetos com História e Experiência.</h2><br><br>
+            <p id="article-text">Nós realizamos desde 2002 projetos e gerenciamento de obras. <br> 
+              Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br> 
+              como principal proposta transformar em realidade os sonhos de <br> 
+              seus clientes, criando projetos personalizados, unindo a tradição <br> 
+              e a modernidade em nossos projetos.</p>
+          </div>
+
+          <div id="img-container">
+            <div id="right-seta" class="setas" onclick="rolagemDireita()"><img id="seta-direita" src="./assets/img/seta-direita.svg"></div>
+            <img id="img-1" class="images" src="./assets/img/imagem-1.svg">
+            <img id="img-2" class="images" src="./assets/img/imagem-2.jpg">
+            <div id="left-seta" class="setas" onclick="rolagemEsquerda()"><img id="seta-esquerda" src="./assets/img/seta-esquerda.svg"></div>
+          </div>
+        </div>
+      </article>
+
+      <footer>
+        <div id="footer-container">
+          <h2 id="titulo-footer">Conheça mais sobre nossos serviços:</h2><br><br>
+          <form action="https://api.sheetmonkey.io/form/966pDyMB28EC6UA4HVLn7W" method="post">
+            <input id="Nome" type="text" name="Name" placeholder="Nome" required><br><br>
+            <input id="Email" type="email" name="Email" placeholder="Email" required><br><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button id="submit-button" type="submit">Fale Conosco</button>
+          </form>
+        </div>
+      </footer>
+
+    </main>
+    <script src="./JS/index.js"></script>
+    <script src="https://kit.fontawesome.com/9effb629c2.js" crossorigin="anonymous"></script>
+  </body>
+</html>

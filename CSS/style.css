@@ -1,0 +1,248 @@
+*{
+  margin: 0px;
+  font-family: "Inter";
+}
+
+header{
+  background-color: #303030;
+  height: 475px;
+  color: #fff;
+  position: relative;
+}
+
+#logo{
+  position: absolute;
+  width: 85px;
+  height: auto;
+  top: 35px;
+  left: 47%;
+}
+
+#text-container {
+  margin-left: 50px;
+  margin-top: 200px;
+  position: absolute;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+#header-text {
+  font-size: 20px;
+}
+
+#data-section{
+  padding: 20px 168px 20px 168px;
+  height: 229px;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  gap: 0px;
+  align-items: center;
+
+}
+
+.data-container{
+  text-align: center;
+  justify-content: space-around;
+}
+
+.text-bigger{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.text-small{
+  font-size: 25px;
+}
+
+#article-container{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 80px 0 80px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-container{
+  margin-left: 90px;
+  width: 510px;
+  height: 605px;
+  display: flex;
+  position: relative;
+}
+
+.images{
+  width: 510px;
+  height: 605px;
+  border-radius: 30px;
+}
+
+#img-2, #left-seta{
+  display: none;
+}
+
+#article-title{
+  font-size: 40px;
+}
+
+#article-text{
+  font-size: 20px;
+}
+
+#seta-direita, #seta-esquerda{
+  width: 20px;
+  height: 30px;
+  margin-top: 0.55rem;
+
+}
+
+#right-seta{
+  left: 91%;
+}
+
+#right-seta:hover{
+  transform: translateX(5px);
+  transition-duration: .2s;
+}
+
+#left-seta{
+  right: 91%;
+}
+
+#left-seta:hover{
+  transform: translateX(-5px);
+  transition-duration: .2s;
+}
+
+.setas{
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .10s;
+}
+
+.setas:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+footer{
+  background-color: #303030;
+  height: 638px;
+  padding: 110px 50px 50px 50px;
+}
+
+#footer-container{
+  text-align: center;
+  color: #fff;
+}
+
+#titulo-footer{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+input{
+  width: 490px;
+  height: 72px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+input:focus-within {
+  outline: 3px solid #C07212;
+}
+
+#Email{
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+#submit-button{
+  width: 245px;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  background-color: #C07212;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .8s;
+}
+
+#submit-button:hover{
+  background-color: #ffa536;
+  color: black;
+  font-weight: 700;
+}
+
+#html{
+  background-color: #303030;
+}
+
+#redirect-section{
+  text-align: center;
+  color: #fff;
+  position: relative;
+} 
+
+#redirect-logo{
+  position: absolute;
+  width: 85px;
+  height: auto;
+  left: 46%;
+  top: 2em;
+}
+
+#redirect-container{
+  position: absolute;
+  margin: auto;
+  left: 24em;
+  top: 17em;
+}
+
+#redirect-title{
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#index-button, #sheets-button{
+  width: 245px;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  background-color: #C07212;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .8s;
+}
+
+#index-button{
+  margin-right: 30px;
+}
+
+#index-button:hover{
+  background-color: #ffa536;
+  color: black;
+  font-weight: 700;
+}
+
+#sheets-button:hover{
+  background-color: #ffa536;
+  color: black;
+  font-weight: 700;
+}
