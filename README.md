@@ -1,4 +1,4 @@
-# DESAFIO1-RESOLUÇÃO
+# CRIANDO UMA LANDINDPAGE DO ZERO
 
 Repositório com o projeto prático (Desafio 1) do curso de Full Stack Developer da Escola DNC
 
